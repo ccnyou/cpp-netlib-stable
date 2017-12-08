@@ -50,3 +50,10 @@ Temporary Items
 build/Win32
 build/libs/network/src/Debug
 build/tests
+*.tlog
+*.obj
+*.pdb
+*.log
+*.sdf
+*.opensdf
+*.lib
