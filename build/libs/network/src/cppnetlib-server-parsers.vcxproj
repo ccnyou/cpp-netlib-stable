@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -55,7 +55,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ervinchen\Documents\GitHub\cpp-netlib-stable\build\libs\network\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cppnetlib-server-parsers.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cppnetlib-server-parsers</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
@@ -85,7 +85,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;BOOST_TEST_DYN_LINK;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0501;ASIO_HEADER_ONLY;BOOST_SPIRIT_THREADSAFE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -117,11 +118,13 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_TEST_DYN_LINK;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0501;ASIO_HEADER_ONLY;BOOST_SPIRIT_THREADSAFE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_TEST_DYN_LINK;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0501;ASIO_HEADER_ONLY;BOOST_SPIRIT_THREADSAFE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -150,11 +153,13 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_TEST_DYN_LINK;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0501;ASIO_HEADER_ONLY;BOOST_SPIRIT_THREADSAFE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_TEST_DYN_LINK;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0501;ASIO_HEADER_ONLY;BOOST_SPIRIT_THREADSAFE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -184,7 +189,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_TEST_DYN_LINK;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0501;ASIO_HEADER_ONLY;BOOST_SPIRIT_THREADSAFE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -262,7 +268,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\ervinchen\Documents\GitHub\cpp-netlib-stable\libs\network\src\server_request_parsers_impl.cpp"  />
+    <ClCompile Include="C:\Users\ervinchen\Documents\GitHub\cpp-netlib-stable\libs\network\src\server_request_parsers_impl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\ervinchen\Documents\GitHub\cpp-netlib-stable\build\ZERO_CHECK.vcxproj">
