@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ervinchen\Documents\GitHub\cpp-netlib-stable\build\CMakeFiles\9932512ed8b903b8e44436f1a6bfea65\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E7EF536E-9844-3D83-AF9D-35E9C8321279}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

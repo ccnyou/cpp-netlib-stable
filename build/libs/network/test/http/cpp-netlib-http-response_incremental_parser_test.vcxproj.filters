@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ervinchen\Documents\GitHub\cpp-netlib-stable\libs\network\test\http\response_incremental_parser_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ervinchen\Documents\GitHub\cpp-netlib-stable\libs\network\test\http\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4B946344-2AC5-39CE-950E-B79A4F13D90E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
